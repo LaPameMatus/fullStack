@@ -1,9 +1,6 @@
-require("./database");
-
-const app = require("./app");
-
+require("./dataBase");
+const app = require("./App");
 async function main() {
-  await app.listen(8000, () => console.log("funcionando"));
+  await app.listen(3000, () => console.log("Funcionando"));
 }
-
 main();
