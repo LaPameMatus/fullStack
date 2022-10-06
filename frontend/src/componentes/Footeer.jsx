@@ -8,10 +8,10 @@ const Footer = () =>{
         <div class="footer-basic">
         <footer>
             <div class="social">
-            <a href="https://www.instagram.com"><i class="icon ion-social-instagram"></i></a>
+            <a href="https://instagram.com/dfdescartables?igshid=YmMyMTA2M2Y="><i class="icon ion-social-instagram"></i></a>
             <a href="https://www.snapchat.com"><i class="icon ion-social-snapchat"></i></a>
             <a href="https://twitter.com"><i class="icon ion-social-twitter"></i></a>
-            <a href="https://www.facebook.com"><i class="icon ion-social-facebook"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100063336753962"><i class="icon ion-social-facebook"></i></a>
             </div>
             <ul class="list-inline">
                 <li class="list-inline-item"><a><Link to="/frontend/src/component/paginas/Inicio.js">Inicio</Link></a></li>
