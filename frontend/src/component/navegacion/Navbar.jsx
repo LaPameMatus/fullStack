@@ -2,7 +2,7 @@ import React,{useState} from 'react'
 import styled from 'styled-components'
 import BurguerButton from './BurguerButton'
 import {Link} from 'react-router-dom'
-import logo from 'D:/FullStack/respaldo/src/Logo.jpg'
+import logo from '../../assets/Logo.jpg'
 import './Navbar.css';
 
 function Navbar() {

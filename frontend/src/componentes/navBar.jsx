@@ -3,7 +3,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import "./navBar.css";
-import logo from "../img/bandeja103.jpg";
+import Logo from "../assets/Logo.jpg";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
@@ -14,7 +14,7 @@ const NavBar = () => {
       <Navbar bg="light" expand="lg">
         <Container>
           <div>
-            <img src={logo} alt={"logo"} />
+            <img src={Logo} alt="logo" />
           </div>
           <Navbar.Brand href="#home">DF Descartables</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
