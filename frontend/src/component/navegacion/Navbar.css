@@ -1,0 +1,8 @@
+.logo{
+    width: 100px;
+    
+}
+.logo img{
+    max-width: 100%;
+    border-radius: 50%;
+}

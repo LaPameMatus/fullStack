@@ -1,0 +1,53 @@
+
+@font-face {
+    font-family: Sriracha;
+    src: url(../../fuentes/Sriracha.ttf);
+}
+body, html{
+    margin: 0.5px;;
+}
+
+.bgimg-1{
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../../img/banner.png);
+    min-height: 100vh;
+    @media (min-width: 768px) {
+        background-image: url(../../img/banner.png);
+        width:50%;
+        margin:auto;
+        
+    }
+
+}
+.caption{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color:#000;
+}
+.caption .border{
+    background-color:#111;
+    color: #fff;
+    padding: 18px;
+    font-size:25px;
+    letter-spacing: 10px;
+}
+.section{
+    height:250px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 200px;
+}
+.fuente{
+    font-family: Sriracha;
+    font-size: 25px;
+    align-items: center;
+}
+/* hay que modificar la imagen  */
