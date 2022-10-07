@@ -7,7 +7,7 @@ import image3 from '../../img/20210323_130322.jpg';
 import image4 from '../../img/20210330_111132.jpg';
 import image5 from '../../img/20210330_111310.jpg';
 
-const cards=[
+const card=[
     {
     id:1,
     title:'Nombre del Productos',

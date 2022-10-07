@@ -57,6 +57,7 @@ const NavContainer = styled.nav `
 
     .links{
         position: absolute;
+        z-index:1;
         top: -700px;
         left: -2000px;
         right: 0;
@@ -100,6 +101,7 @@ const NavContainer = styled.nav `
     .burguer{
         @media(min-width: 768px){
             display: none;
+            z-index:1;
         }
     }
 
@@ -112,14 +114,14 @@ const BgDiv =styled.div`
     left: -1000px;
     width: 100%;
     height: 100%;
-    z-index: -1;
+    z-index: 0;
     transition: all .6s ease ;
     &.active{
         border-radius: 0 0 80% 0;
         top: 0;
         left: 0;
-        width: 100%;
-        height: 100%;
+        width: 85%;
+        height: 90%;
     }
 
 

@@ -14,12 +14,11 @@ const Footer = () =>{
             <a href="https://www.facebook.com/profile.php?id=100063336753962"><i class="icon ion-social-facebook"></i></a>
             </div>
             <ul class="list-inline">
-                <li class="list-inline-item"><a><Link to="/frontend/src/component/paginas/Inicio.js">Inicio</Link></a></li>
-                <li class="list-inline-item"><a><Link to="/frontend/src/component/paginas/Productos.js">Productos</Link></a></li>
-                <li class="list-inline-item"><a><Link to="/frontend/src/component/paginas/QuienesSomos.js">Quienes Somos</Link></a></li>
-                <li class="list-inline-item"><a><Link to="/frontend/src/component/paginas/Contactos.js">Contactos</Link></a></li>
-                
-         
+                <li class="list-inline-item"><Link to="/frontend/src/component/paginas/Inicio.js">Inicio</Link></li>
+                <li class="list-inline-item"><Link to="/frontend/src/component/paginas/Productos.js">Productos</Link></li>
+                <li class="list-inline-item"><Link to="/frontend/src/component/paginas/QuienesSomos.js">Quienes Somos</Link></li>
+                <li class="list-inline-item"><Link to="/frontend/src/component/paginas/Contactos.js">Contactos</Link></li>
+
             </ul>
             <div className="Logo-footer">
             <img src={Logo} alt="logo" />

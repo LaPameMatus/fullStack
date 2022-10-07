@@ -6,6 +6,8 @@ const Productos = () => {
     return (
             <div>
                 <h1>Pagina de Productos</h1>
+                <Cards/>
+            
                 
             
                 
