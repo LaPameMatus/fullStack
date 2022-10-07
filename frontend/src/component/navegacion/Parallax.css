@@ -9,30 +9,15 @@ html {
 
 .bgimg-1 {
   position: relative;
-  background-image: url(../../img/banner.png);
-  min-height: 100vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-}
-/* .bgimg-1 {
   background-image: url(../../img/banner.png);
   min-height: 100vh;
-} */
-
-/* @media (min-width: 568px) {
-  .bgimg-1 {
-    width: 100vw;
-    margin: auto;
-  }
-} */
-@media (max-width: 500px) {
-  .bgimg-1 {
+  @media (min-width: 768px) {
     background-image: url(../../img/banner.png);
-    background-size: contain;
-    background-position: inherit;
-    background-repeat: no-repeat;
-    background-size: cover;
+    width: 50%;
+    margin: auto;
   }
 }
 .caption {

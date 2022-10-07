@@ -5,8 +5,7 @@ import Imagenes from '../navegacion/Carousel';
 const Inicio = () => {
     return (
         <div>
-            <Imagenes/>
-            <Parallax/>
+            
         </div>
     )
 }
