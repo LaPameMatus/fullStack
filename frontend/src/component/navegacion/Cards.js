@@ -7,7 +7,7 @@ import image3 from '../../img/20210323_130322.jpg';
 import image4 from '../../img/20210330_111132.jpg';
 import image5 from '../../img/20210330_111310.jpg';
 
-const card=[
+const cards=[
     {
     id:1,
     title:'Nombre del Productos',
@@ -41,24 +41,40 @@ const card=[
     
 ]
 
+// function Cards() {
+//     return (
+//         <div className="container d-flex justify-content-center h100">
+//             <div className="row">
+//                 {
+//                     Card.map(card =>(
+//                         <div className="col-md-4" key={card.id}>
+//                             <Card title={card.title} description={card.description} imageSource={card.image}/>   
+//                         </div>
+//                     ))                        
+//                 }
+                
+                
+//             </div>
+        
+//         </div>
+//     )
+// }
+
+// export default Cards
+
 function Cards() {
     return (
-        <div className="container d-flex justify-content-center h100">
+        <div className="container d-flex justify-content-center align-items-center h-100">
             <div className="row">
-                {
-                    Card.map(card =>(
-                        <div className="col-md-4" key={card.id}>
-                            <Card title={card.title} description={card.description} imageSource={card.image}/>   
-                        </div>
-                    ))                        
-                }
-                
-                
+            {cards.map(({ title, image, description,}) => (
+                <div className="col-md-4">
+                <Card imageSource={image} description={description} title={title} />
+                </div>
+            ))}
             </div>
-        
         </div>
-    )
+    );
 }
+export default Cards;
 
-export default Cards
 

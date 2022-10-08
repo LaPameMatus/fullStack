@@ -1,34 +1,36 @@
-import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
-import './Cards.css';
-import PropTypes from 'prop-types'
-// import Cards from './Cards'
+import React from "react";
+import PropTypes from "prop-types";
+import "./Cards.css";
 
-
-function Cardd({title,description,imageSource}) {
+function Card({ imageSource, title, description, url }) {
     return (
-        <div className="card text-center">
-            <Card style={{ width: '18rem' }}>
-                <div className="overflow">
-                <Card.Img variant="top" src={imageSource}  className="card-img-top"/>
-                </div>                
-                <Card.Body className="card-body">
-                    <Card.Title>{title}</Card.Title>
-                    <Card.Text className="card-text">
-                    {description}
-                    </Card.Text>
-                    <Button className='btn btn-outline-secondary rounded-0'>Comprar</Button>
-                </Card.Body>
-            </Card>
+        <div className="card text-center bg-dark animate__animated animate__fadeInUp">
+        <div className="overflow">
+            <img src={imageSource} alt="a wallpaper" className="card-img-top" />
+        </div>
+        <div className="card-body text-light">
+            <h4 className="card-title">{title}</h4>
+            <p className="card-text text-secondary">
+            {description}
+            </p>
+            <a
+            href={url ? url : "#!"}
+            target="_blank"
+            className="btn btn-outline-secondary border-0"
+            rel="noreferrer"
+            >
+            Comprar {title}
+            </a>
+        </div>
         </div>
     );
 }
-Card.propTypes ={
+
+Card.propTypes = {
     title: PropTypes.string.isRequired,
-    description: PropTypes.string.isRequired,
-    image: PropTypes.string.isRequired,
+    text: PropTypes.string,
+    url: PropTypes.string,
+    imageSource: PropTypes.string
+};
 
-
-}
-
-export default Cardd;
+export default Card;
