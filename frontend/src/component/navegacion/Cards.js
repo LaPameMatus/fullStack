@@ -41,26 +41,6 @@ const cards=[
     
 ]
 
-// function Cards() {
-//     return (
-//         <div className="container d-flex justify-content-center h100">
-//             <div className="row">
-//                 {
-//                     Card.map(card =>(
-//                         <div className="col-md-4" key={card.id}>
-//                             <Card title={card.title} description={card.description} imageSource={card.image}/>   
-//                         </div>
-//                     ))                        
-//                 }
-                
-                
-//             </div>
-        
-//         </div>
-//     )
-// }
-
-// export default Cards
 
 function Cards() {
     return (
