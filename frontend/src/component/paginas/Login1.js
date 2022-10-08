@@ -29,12 +29,12 @@ class Login1 extends React.Component {
     console.log(this.state.form);
   };
 
-  manejadorBoton() {
+  manejadorBoton = () => {
     let url = LoginUser + "login";
     axios.post(url, this.state.form).them((response) => {
       console.log(response);
     });
-  }
+  };
 
   render() {
     return (
