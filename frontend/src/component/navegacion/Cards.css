@@ -1,28 +1,46 @@
-.Cards{
-    background: rgb(232,200,174);
-background: linear-gradient(90deg, rgba(232,200,174,1) 18%, 
-rgba(232,240,217,1) 39%, rgba(167,249,226,1) 46%);
+h1{
+    color: rgb(247,180,180);
+    text-align: center;
 }
-.card:hover{
-    box-shadow: 5px 10px 20px 1px rgb(222, 109, 16) !important ;
-    transition: all 0.5s lineal;
-}
-.card-body{
-    padding: 2rem 0 !important;
 
+.card{
+    margin: 1.5px;
 }
-.card-text{
+.card:hover {
+    box-shadow: 5px 10px 20px 1px rgba(255, 255, 255, 0.273) !important;
+    transition: all 0.7s linear;
+}
+
+.card-body {
+    padding: 2rem 0 !important;
+    background: rgb(232,200,174);
+    background: linear-gradient(61deg, rgba(232,200,174,1) 23%, 
+    rgba(167,249,226,1) 35%, 
+    rgba(232,240,217,1) 64%);
+}
+
+.card-text {
     padding: 0.3rem 1rem;
     font-size: 1rem;
+
 }
-.overflow{
+
+
+.overflow {
     overflow: hidden;
 }
 
-.card-img-top{
-    transition:all 0.2s ease-in-out;
-
+.card-img-top {
+    transform: scale(1);
+    transition: all 0.2s ease-in-out;
 }
-.card-img-top{
+
+.card-img-top:hover {
     transform: scale(1.8);
 }
+.overflow img{
+    width: 320px;
+    height: 320px;
+    object-fit: cover;
+}
+
