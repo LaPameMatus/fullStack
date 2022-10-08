@@ -1,8 +1,8 @@
-import "bootstrap/dist/css/bootstrap.min.css";
-import Nosotros from "./paginas/nosotros";
+// import "bootstrap/dist/css/bootstrap.min.css";
+// import Nosotros from "./paginas/nosotros";
 
-const App = () => {
-  return <Nosotros />;
-};
+// const App = () => {
+//   return <Nosotros />;
+// };
 
-export default App;
+// export default App;

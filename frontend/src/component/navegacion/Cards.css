@@ -1,3 +1,11 @@
+h1{
+    color: rgb(247,180,180);
+    text-align: center;
+}
+
+.card{
+    margin: 1.5px;
+}
 .card:hover {
     box-shadow: 5px 10px 20px 1px rgba(255, 255, 255, 0.273) !important;
     transition: all 0.7s linear;
@@ -29,5 +37,10 @@
 
 .card-img-top:hover {
     transform: scale(1.8);
+}
+.overflow img{
+    width: 320px;
+    height: 320px;
+    object-fit: cover;
 }
 

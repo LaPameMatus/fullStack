@@ -3,9 +3,14 @@ import Card from './Card'
 import './Cards.css';
 import image1 from '../../img/20210316_102651.jpg';
 import image2 from '../../img/20210318_094837.jpg';
-import image3 from '../../img/20210323_130322.jpg';
+import image3 from '../../img/BOLSA PAPEL3.jpg';
 import image4 from '../../img/20210330_111132.jpg';
-import image5 from '../../img/20210330_111310.jpg';
+import image5 from '../../img/bolsasemblocadas.jpg';
+import image6 from '../../img/BLONDA28CM.jpg';
+import image7 from '../../img/ALUMINIO.jpg';
+import image8 from '../../img/bandejacarton.jpg';
+import image9 from '../../img/Bandejas-aptas-para-microondas-de-aluminio-con-tapa-BRC-600x600.jpg';
+
 
 const cards=[
     {
@@ -38,6 +43,31 @@ const cards=[
     description:'Describir brevemente el producto',
     image: image5,  
     },
+    {
+    id:6,
+    title:'Nombre del Productos',
+    description:'Describir brevemente el producto',
+    image: image6,  
+    },
+    {
+    id:7,
+    title:'Nombre del Productos',
+    description:'Describir brevemente el producto',
+    image: image7,  
+    },
+    {
+    id:8,
+    title:'Nombre del Productos',
+    description:'Describir brevemente el producto',
+    image: image8,  
+    },
+    {
+    id:9,
+    title:'Nombre del Productos',
+    description:'Describir brevemente el producto',
+    image: image9,  
+    },
+    
     
 ]
 

@@ -18,7 +18,7 @@ function App() {
         <Route path='/frontend/src/component/paginas/Productos.js' exact component ={Productos}/>
         <Route path='/frontend/src/component/paginas/Contactos.js' exact component ={Contactos}/>
       </Switch>
-      <Footer />
+      {/* <Footer /> */}
     </Router>
     
     </div>
