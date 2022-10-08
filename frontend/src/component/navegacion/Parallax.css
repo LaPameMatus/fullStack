@@ -46,8 +46,9 @@ body, html{
     padding: 0 200px;
 }
 .fuente{
+    margin: 15px;
     font-family: Sriracha;
     font-size: 25px;
     align-items: center;
 }
-/* hay que modificar la imagen  */
+/* hay que modificar las imagenes del carrusel  */
