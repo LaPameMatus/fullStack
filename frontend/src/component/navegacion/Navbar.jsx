@@ -65,7 +65,7 @@ const NavContainer = styled.nav`
 
   .links {
     position: absolute;
-    z-index: 0;
+    z-index: 2;
     top: -700px;
     left: -2000px;
     right: 0;
@@ -120,7 +120,7 @@ const BgDiv = styled.div`
   left: -1000px;
   width: 100%;
   height: 100%;
-  z-index: 0;
+  z-index: 1;
   transition: all 0.6s ease;
   &.active {
     border-radius: 0 0 80% 0;

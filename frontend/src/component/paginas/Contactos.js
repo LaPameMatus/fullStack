@@ -60,7 +60,7 @@ html, body {
   align-items: center;
   min-height: 100vh;
   background: linear-gradient(61deg, rgba(232,200,174,1) 23%);
-  padding: 200px;
+  margin: 20px;
 
   }
 
