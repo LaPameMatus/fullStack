@@ -25,7 +25,7 @@ const register = (req, res, next) => {
       })
       .catch((error) => {
         res.json({
-          message: "Error al registrar",
+          message: "Error al registrar usuario",
         });
       });
   });
