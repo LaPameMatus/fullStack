@@ -29,8 +29,9 @@ function Navbar() {
             Contactos
           </Link>
           <Link to="/frontend/src/component/paginas/Login.js">Login</Link>
-          <Link to="/frontend/src/component/paginas/Register.js">Register</Link>
-          <Link to="/frontend/src/component/paginas/Login1.js">Login1</Link>
+          <Link to="/frontend/src/component/paginas/Register.jsx">
+            Register
+          </Link>
         </div>
 
         <div className="burguer">

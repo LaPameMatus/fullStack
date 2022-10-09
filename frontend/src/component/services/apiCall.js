@@ -8,3 +8,13 @@ export const LoginUser = async () => {
 
   return await axios.post("http://localhost:3000/login", user);
 };
+
+export const RegisterUser = async () => {
+  const user = {
+    name: "",
+    email: "",
+    phone: "",
+    password: "",
+  };
+  return await axios.post("http://localhost:3000/register", user);
+};

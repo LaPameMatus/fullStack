@@ -6,7 +6,6 @@ import Productos from "./component/paginas/Productos";
 import Contactos from "./component/paginas/Contactos";
 import Login from "./component/paginas/Login";
 import Register from "./component/paginas/Register";
-import Login1 from "./component/paginas/Login1";
 
 function App() {
   return (
@@ -29,20 +28,16 @@ function App() {
             exact
             component={Contactos}
           />
+
           <Route
             path="/frontend/src/component/paginas/Login.js"
             exact
             component={Login}
           />
           <Route
-            path="/frontend/src/component/paginas/Register.js"
+            path="/frontend/src/component/paginas/Register.jsx"
             exact
             component={Register}
-          />
-          <Route
-            path="/frontend/src/component/paginas/Login1.js"
-            exact
-            component={Login1}
           />
         </Switch>
       </Router>
