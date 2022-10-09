@@ -2,7 +2,11 @@ import React, { useState } from "react";
 import styled from "styled-components";
 import BurguerButton from "./BurguerButton";
 import { Link } from "react-router-dom";
+<<<<<<< HEAD
 import logo from "../../assets/Logo.jpg";
+=======
+import logo from "../img/logo.jpg";
+>>>>>>> diego1
 import "./Navbar.css";
 
 function Navbar() {
@@ -14,7 +18,11 @@ function Navbar() {
     <>
       <NavContainer>
         <h2>
+<<<<<<< HEAD
           Descartables <span>D&F</span>
+=======
+          Descartables <span>DF</span>
+>>>>>>> diego1
         </h2>
         <div className="logo">
           <img src={logo} alt="Este es el logo" />
@@ -28,7 +36,16 @@ function Navbar() {
           <Link to="/frontend/src/component/paginas/Contactos.js">
             Contactos
           </Link>
+<<<<<<< HEAD
         </div>
+=======
+          <Link to="/frontend/src/component/paginas/Login.js">Login</Link>
+          <Link to="/frontend/src/component/paginas/Register.jsx">
+            Register
+          </Link>
+        </div>
+
+>>>>>>> diego1
         <div className="burguer">
           <BurguerButton clicked={clicked} handleClick={handleClick} />
         </div>
@@ -60,7 +77,10 @@ const NavContainer = styled.nav`
 
   .links {
     position: absolute;
+<<<<<<< HEAD
     z-index: 1;
+=======
+>>>>>>> diego1
     top: -700px;
     left: -2000px;
     right: 0;
@@ -104,7 +124,10 @@ const NavContainer = styled.nav`
   .burguer {
     @media (min-width: 768px) {
       display: none;
+<<<<<<< HEAD
       z-index: 1;
+=======
+>>>>>>> diego1
     }
   }
 `;
@@ -115,13 +138,22 @@ const BgDiv = styled.div`
   left: -1000px;
   width: 100%;
   height: 100%;
+<<<<<<< HEAD
   z-index: 0;
+=======
+  z-index: -1;
+>>>>>>> diego1
   transition: all 0.6s ease;
   &.active {
     border-radius: 0 0 80% 0;
     top: 0;
     left: 0;
+<<<<<<< HEAD
     width: 85%;
     height: 90%;
+=======
+    width: 100%;
+    height: 100%;
+>>>>>>> diego1
   }
 `;
