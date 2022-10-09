@@ -1,5 +1,3 @@
-/* BASIC */
-
 html {
   background-color: #56baed;
 }
@@ -25,8 +23,6 @@ h2 {
   margin: 40px 8px 10px 8px;
   color: #cccccc;
 }
-
-/* STRUCTURE */
 
 .wrapper {
   display: flex;
@@ -60,8 +56,6 @@ h2 {
   -webkit-border-radius: 0 0 10px 10px;
   border-radius: 0 0 10px 10px;
 }
-
-/* TABS */
 
 h2.inactive {
   color: #cccccc;

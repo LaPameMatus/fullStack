@@ -1,6 +1,6 @@
 import React from "react";
 import "../navegacion/LoginRegister.css";
-import logo from "../../component/img/logo.jpg";
+import logo from "../img/logo.jpg";
 import { Apiurlogin } from "../services/apirest";
 import axios from "axios";
 
@@ -38,7 +38,7 @@ class Login extends React.Component {
     axios.post(url, user).then((response) => {
       console.log(response);
       if (response.data.status === "ok") {
-        // <Redirect to="/Contactos.js" />;
+        // <Return to="/Contactos.js" />;
       } else {
         this.setState({
           error: true,

@@ -2,11 +2,7 @@ import React, { useState } from "react";
 import styled from "styled-components";
 import BurguerButton from "./BurguerButton";
 import { Link } from "react-router-dom";
-<<<<<<< HEAD
 import logo from "../../assets/Logo.jpg";
-=======
-import logo from "../img/logo.jpg";
->>>>>>> diego1
 import "./Navbar.css";
 
 function Navbar() {
@@ -18,11 +14,7 @@ function Navbar() {
     <>
       <NavContainer>
         <h2>
-<<<<<<< HEAD
-          Descartables <span>D&F</span>
-=======
           Descartables <span>DF</span>
->>>>>>> diego1
         </h2>
         <div className="logo">
           <img src={logo} alt="Este es el logo" />
@@ -36,16 +28,12 @@ function Navbar() {
           <Link to="/frontend/src/component/paginas/Contactos.js">
             Contactos
           </Link>
-<<<<<<< HEAD
-        </div>
-=======
           <Link to="/frontend/src/component/paginas/Login.js">Login</Link>
           <Link to="/frontend/src/component/paginas/Register.jsx">
             Register
           </Link>
         </div>
 
->>>>>>> diego1
         <div className="burguer">
           <BurguerButton clicked={clicked} handleClick={handleClick} />
         </div>
