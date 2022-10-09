@@ -1,6 +1,6 @@
 import React from "react";
 import "../navegacion/LoginRegister.css";
-import logo from "../img/logo.jpg";
+import logo from "../../assets/Logo.jpg";
 import { Apiurlogin } from "../services/apirest";
 import axios from "axios";
 
