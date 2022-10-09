@@ -13,7 +13,7 @@ const register = (req, res, next) => {
     let user = new User({
       name: req.body.name,
       email: req.body.email,
-      phone: req.body.email,
+      phone: req.body.phone,
       password: hashedPass,
     });
     user
@@ -69,10 +69,10 @@ const login = (req, res, next) => {
 };
 
 const deletedd = (req, res) => {
-  var username = req.body.username;
+  var email = req.body.email;
   try {
     const deleted = User.deleteOne({
-      email: `${username}`,
+      email: `${email}`,
     });
     if (deleted.deleteddCount > 0) {
       res.json({ message: "Usuario borrado " });
