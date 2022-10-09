@@ -20,7 +20,7 @@ const register = (req, res, next) => {
       .save()
       .then((user) => {
         res.json({
-          message: "Usuario registrado!",
+          message: "Usuario registrado correctamente!",
         });
       })
       .catch((error) => {
