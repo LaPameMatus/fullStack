@@ -21,11 +21,11 @@ function Navbar() {
         </div>
 
         <div className={`links ${clicked ? "active" : ""}`}>
-          <Link to="/frontend/src/component/paginas/Inicio.js">Inicio</Link>
-          <Link to="/frontend/src/component/paginas/Productos.js">
+          <Link to="/inicio">Inicio</Link>
+          <Link to="/producto">
             Productos
           </Link>
-          <Link to="/frontend/src/component/paginas/Contactos.js">
+          <Link to="/contacto">
             Contactos
           </Link>
         </div>
