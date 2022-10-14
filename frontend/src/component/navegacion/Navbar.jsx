@@ -14,7 +14,7 @@ function Navbar() {
     <>
       <NavContainer>
         <h2>
-          Descartables <span>D&F</span>
+          Descartables <span>DF</span>
         </h2>
         <div className="logo">
           <img src={logo} alt="Este es el logo" />
@@ -28,7 +28,12 @@ function Navbar() {
           <Link to="/contacto">
             Contactos
           </Link>
+          <Link to="/frontend/src/component/paginas/Login.js">Login</Link>
+          <Link to="/frontend/src/component/paginas/Register.jsx">
+            Register
+          </Link>
         </div>
+
         <div className="burguer">
           <BurguerButton clicked={clicked} handleClick={handleClick} />
         </div>
@@ -60,7 +65,7 @@ const NavContainer = styled.nav`
 
   .links {
     position: absolute;
-    z-index: 1;
+    z-index: 2;
     top: -700px;
     left: -2000px;
     right: 0;
@@ -115,7 +120,7 @@ const BgDiv = styled.div`
   left: -1000px;
   width: 100%;
   height: 100%;
-  z-index: 0;
+  z-index: 1;
   transition: all 0.6s ease;
   &.active {
     border-radius: 0 0 80% 0;
