@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.form-login {
+  width: 100%;
+  height: 100%;
+  font-family: sans-serif;
+}
+.titulo-login {
+  text-align: center;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+
+.boton {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  text-align: center;
+  font-size: large;
+  font-weight: 500;
+}
