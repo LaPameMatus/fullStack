@@ -7,8 +7,8 @@ import "./Paginas.css";
 const Inicio = () => {
   return (
     <div className="fondo">
-      <Parallax />
       <Imagenes />
+      <Parallax />
       <Footer />
     </div>
   );
