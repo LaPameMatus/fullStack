@@ -7,7 +7,7 @@ import "./Paginas.css";
 const Productos = () => {
   return (
     <div className="fondo">
-      <h1>Nuestros Productos</h1>
+      <h3>Nuestros Productos</h3>
       <Cards />
       <Footer />
     </div>
