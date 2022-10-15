@@ -10,31 +10,31 @@ import image5 from "../../img/20210330_111310.jpg";
 const cards = [
   {
     id: 1,
-    title: "Nombre del Productos",
+    title: "FILM ADHERENTE",
     description: "Describir brevemente el producto",
     image: image1,
   },
   {
     id: 2,
-    title: "Nombre del Productos",
+    title: "PAPEL MANTECA",
     description: "Describir brevemente el producto",
     image: image2,
   },
   {
     id: 3,
-    title: "Nombre del Productos",
+    title: "BOLSAS DESCARTABLES",
     description: "Describir brevemente el producto",
     image: image3,
   },
   {
     id: 4,
-    title: "Nombre del Productos",
+    title: "BANDEJA DE CARTON",
     description: "Describir brevemente el producto",
     image: image4,
   },
   {
     id: 5,
-    title: "Nombre del Productos",
+    title: "BANDEJA TELGOPOR ",
     description: "Describir brevemente el producto",
     image: image5,
   },

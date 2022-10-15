@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from "styled-components";
+import Footer from "../navegacion/Footeer"
 
 const Contactos = () => {
     return (<StyleContact>
@@ -26,6 +27,7 @@ const Contactos = () => {
 
 
     </div>
+    <Footer />
     </StyleContact>
     )
 }

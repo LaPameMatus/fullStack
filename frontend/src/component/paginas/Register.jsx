@@ -3,6 +3,7 @@ import "../navegacion/LoginRegister.css";
 import logo from "../../assets/Logo.jpg";
 import { Apiurl } from "../services/apirest";
 import axios from "axios";
+import Footer from "../navegacion/Footeer";
 
 class Register extends React.Component {
   state = {
@@ -103,6 +104,7 @@ class Register extends React.Component {
             <div id="formFooter"></div>
           </div>
         </div>
+        <Footer />
       </React.Fragment>
     );
   }

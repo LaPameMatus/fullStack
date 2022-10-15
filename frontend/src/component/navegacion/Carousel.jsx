@@ -2,8 +2,8 @@ import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import './Carousel.css';
 import banner1 from '../../img/banner.png';
-import banner2 from '../../img/banner.png';
-import banner3 from '../../img/banner.png';
+import banner2 from '../../img/banner2.JPG';
+import banner3 from '../../img/banner3.JPG';
 
 function Imagenes() {
     return (
