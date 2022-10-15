@@ -3,7 +3,6 @@ import "../navegacion/LoginRegister.css";
 import logo from "../../assets/Logo.jpg";
 import { Apiurlogin } from "../services/apirest";
 import axios from "axios";
-import Footer from "../navegacion/Footeer";
 
 class Login extends React.Component {
   state = {
@@ -95,7 +94,6 @@ class Login extends React.Component {
             )}
           </div>
         </div>
-        <Footer />
       </React.Fragment>
     );
   }

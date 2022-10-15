@@ -6,7 +6,7 @@ export function Parallax() {
         <div>
             <div className='bgimg-1'>
                 <div className='caption'>
-                    <span className='border'>Descartables D&F</span>
+                    <span className='border'>D&F</span>
                 </div>
             </div>
             <div className=''>

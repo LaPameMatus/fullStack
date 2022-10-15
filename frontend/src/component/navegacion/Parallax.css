@@ -14,11 +14,6 @@ html {
   background-repeat: no-repeat;
   background-image: url(../../img/banner.png);
   min-height: 100vh;
-  @media (min-width: 768px) {
-    background-image: url(../../img/banner.png);
-    width: 50%;
-    margin: auto;
-  }
 }
 .caption {
   position: absolute;
@@ -43,9 +38,39 @@ html {
   flex-direction: column;
   padding: 0 200px;
 }
-.fuente {
-  font-family: Sriracha;
-  font-size: 25px;
-  align-items: center;
+.fuente{
+    margin: 15px;
+    font-family: Sriracha;
+    font-size: 25px;
+    align-items: center;
 }
-/* hay que modificar la imagen  */
+
+@media screen and (max-width: 700px){
+  .fuente{
+    width: 100%;
+    font-size: 12px;
+    margin: 5px;
+  }
+  .bgimg-1 {
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image:none;
+    min-height: 100vh;
+    
+  }
+  .fuente{
+    margin: 15px;
+    font-family: Sriracha;
+    font-size: 10px;
+    align-items: center;
+  }
+  .caption .border {
+    background-color: #111;
+    color: #fff;
+    padding: 5px;
+    font-size: 14px;
+    letter-spacing: 10px;
+  }
+}

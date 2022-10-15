@@ -1,5 +1,4 @@
 import React from "react";
-import Footer from "../navegacion/Footeer";
 import { Parallax } from "../navegacion/Parallax";
 import Imagenes from "../navegacion/Carousel";
 import "./Paginas.css";
@@ -9,7 +8,6 @@ const Inicio = () => {
     <div className="fondo">
       <Imagenes />
       <Parallax />
-      <Footer />
     </div>
   );
 };
